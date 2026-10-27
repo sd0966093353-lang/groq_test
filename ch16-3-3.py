@@ -1,7 +1,7 @@
 import streamlit as st
 from groq import Groq
 
-st.title("🤖 Groq 語意分析對話機器人")
+st.title("🤖 Groq 結合 streamlit 聊天機器人")
 
 # 初始化 Groq 客戶端 (從 Streamlit Secrets 讀取 API Key)
 try:
