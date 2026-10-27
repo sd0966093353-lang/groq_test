@@ -13,7 +13,7 @@ except Exception as e:
 # 初始化對話歷史記錄 (存放在 st.session_state 裡，重新整理才不會消失)
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "system", "content": "你是一個精準的語意分析機器人。當使用者輸入句子時，請分析其語意含義是「開」還是「關」，並盡量簡潔回答。"}
+        {"role": "system", "content": "你是一個樂於助人的 AI 助理，可以流暢地回答使用者提出的各種問題。"}
     ]
 
 # 畫面渲染：顯示過去的所有對話記錄 (略過 system 提示詞)
